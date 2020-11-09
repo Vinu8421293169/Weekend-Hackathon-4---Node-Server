@@ -16,6 +16,6 @@ function handleServer(req, res) {
     res.writeHead(404)
     res.end("404 not found");
 }
-// httpServer.listen(8081);
+ httpServer.listen(8081);
 
 module.exports = httpServer;
