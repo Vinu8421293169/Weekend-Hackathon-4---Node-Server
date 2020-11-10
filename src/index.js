@@ -14,9 +14,10 @@ function handleServer(req, res) {
             email: 'guestcaredominos@jublfood.com'
             }));
     }
-    else
+    else{
     res.writeHead(404)
     res.end("404 not found");
+    }
 }
  httpServer.listen(8081);
 
